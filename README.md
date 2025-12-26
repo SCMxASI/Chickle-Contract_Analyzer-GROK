@@ -20,7 +20,7 @@ Users can upload legal documents (PDFs), and the system intelligently extracts a
 - AI-based generation of new legal drafts.  
 - Clean, structured Markdown-formatted output.  
 - Advanced PDF text extraction using `pdfplumber`.  
-- Backend built with Flask, integrated with Gemini API.  
+- Backend built with Flask, integrated with llama-3.1-8b-instant API.  
 - Secure, efficient, and production-ready design.  
 
 ---
@@ -54,3 +54,4 @@ Users can upload legal documents (PDFs), and the system intelligently extracts a
 ---
 
 > _"Automating document intelligence with AI-driven precision."_
+
