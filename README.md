@@ -1,90 +1,56 @@
+# 🧾 Chickle Contract Analyzer & Creator 
 
-# Chickle Legal Contract Analyzer AI
+**Developed by Mohamed Asif**  
+B.Sc AI & ML, Adithya College of Arts and Science, Coimbatore  
 
-Intelligent Contract Analysis and Risk Assessment Platform
+--- 
 
-![AI Legal Analysis](https://via.placeholder.com/800x200.png?text=AI+Powered+Legal+Contract+Analysis)
+## 🔹 Overview
 
-## Overview
+**Chickle Contract Analyzer & Creator** is an AI-powered web application designed to analyze, summarize, and generate contracts automatically.  
+It integrates **llama-3.1-8b-instant** for advanced natural language understanding and **Flask (Python)** for backend processing.  
 
-The Chickle Legal Contract Analyzer AI is an advanced NLP-powered solution for automated legal document review. This AI-driven system helps legal professionals and businesses quickly analyze contracts, identify critical clauses, assess potential risks, and ensure regulatory compliance.
+Users can upload legal documents (PDFs), and the system intelligently extracts and interprets contract clauses — producing concise, structured, and readable insights.
 
-## Key Features
+---
 
-- **Natural Language Processing** - Advanced text analysis of legal documents
-- **Clause Recognition** - Automatic identification of key contract clauses
-- **Risk Assessment** - AI-powered evaluation of contractual risks
-- **Compliance Verification** - Cross-checking with current legal regulations
-- **Document Summarization** - Executive summaries of complex agreements
-- **Customizable Templates** - Adaptable to various legal jurisdictions and document types
+## ⚙️ Features
 
-## Technology Stack
+- Analyze and summarize uploaded PDF contracts.  
+- AI-based generation of new legal drafts.  
+- Clean, structured Markdown-formatted output.  
+- Advanced PDF text extraction using `pdfplumber`.  
+- Backend built with Flask, integrated with Gemini API.  
+- Secure, efficient, and production-ready design.  
 
-### Core AI
-- Python 3.10+
-- TensorFlow/PyTorch
-- Transformers Library (Hugging Face)
-- SpaCy Legal NLP
+---
 
-### Backend
-- FastAPI
-- PostgreSQL
-- Redis
-- Celery
+## 🧠 Tech Stack
 
-### Frontend
-- Streamlit
-- React (Optional web interface)
+| Component | Technology |
+|------------|-------------|
+| **Frontend** | HTML, CSS, JavaScript |
+| **Backend** | Flask (Python) |
+| **AI Model** | llama-3.1-8b-instant |
+| **PDF Parser** | pdfplumber |
+| **Hosting** | Netlify (Frontend), Flask Server (Backend) |
 
-### NLP Processing
-- BERT Legal Domain Adaptation
-- ContractNER Models
-- Clause Segmentation Algorithms
+---
 
-## Installation
+## 🌐 Live Applications
 
-```bash
-# Clone repository
-git clone https://github.com/yourusername/chickle-legal-analyzer.git
-cd chickle-legal-analyzer
+- 🔗 [Chickle Contract Analyzer & Creator](https://chicklelegalcontractanalyzer.netlify.app/)  
+- 🔗 [Chickle Legal Assist AI](https://chicklelegalassistai.netlify.app/)
 
-# Create virtual environment
-python -m venv venv
-venv\Scripts\activate
+---
 
-# Install dependencies
-pip install -r requirements.txt
+## 👨‍💻 Developer
 
-# Set up environment variables (Create .env file)
-API_KEY=your_ai_service_key
-LEGAL_DB_URI=postgresql://user:password@localhost/legalai
-```
+**Name:** Mohamed Asif  
+**Mail ID:** mohamedasifoffl@gmail.com
+**Portfolio:** [https://mdasif-portfolio.netlify.app](https://mdasif-portfolio.netlify.app)  
+**Field:** Artificial Intelligence & Machine Learning  
 
-## Usage
+---
 
-1. **Document Analysis**:
-```bash
-python -m chickle analyze --document contract.pdf
-```
-
-2. **Start Web Interface**:
-```bash
-streamlit run app/main_interface.py
-```
-
-3. **API Endpoints**:
-```python
-POST /api/analyze
-{
-  "document": "contract_text",
-  "jurisdiction": "US"
-}
-```
-
-## License
-
-MIT License
-
-Copyright (c) 2025 Chickle Legal AI
-
-Permission is hereby granted... (standard MIT license text)
+> _"Automating document intelligence with AI-driven precision."_
